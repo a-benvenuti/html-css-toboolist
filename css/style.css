@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f8f9;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* da qui inizia l'header */
+header {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.logo-testo {
+  color: #04004e;
+  display: inline;
+  font-size: 50px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.logo-img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* fine dell'header */
+/* da qui inizia il main */
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+.azioni {
+  border-bottom: 2px solid #f6f8f9;
+  padding: 15px 30px;
+}
+.bottone {
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #ddd;
+}
+.bottone-pieno {
+  background-color:#39cae7;
+  color: #fff;
+}
+.tasks {
+  padding: 30px;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 10px 0;
+}
+ul h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+.cerchio {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  line-height: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+.fatto {
+  border: 1px solid #2cc6ab;
+  color: #2cc6ab;
+}
+.negato {
+  border: 1px solid #d00217;
+  color: #d00217;
+}
+/* fine del main */
+/* tags */
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: sans-serif;
+  border-radius: 20px;
+  color: #fff;
+}
+.tag-1 {
+  background-color: #39cae7; /*celeste*/
+}
+.tag-2 {
+  background-color: #6ed172; /*verde*/
+}
+.tag-3 {
+  background-color: #ad29e3; /*viola*/
+}
+.tag-4 {
+  background-color: #f79d1c; /*arancione*/
+}
+.tag-5 {
+  background-color: #5fc692; /*verde-marino*/
+}
+.tag-6 {
+  background-color: #ee49d8; /*rosa*/
+}
